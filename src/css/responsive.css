@@ -1,0 +1,69 @@
+@media (max-width: 375px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .image-mobile {
+        display: block;
+        width: 100%; 
+        height: 100%;
+        object-fit: covezr;
+    }
+
+    .container {
+        padding: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .container .content h1{
+        font-size: 35px;
+    }
+
+    .container .content p,
+    .container .content .content-list .list {
+        font-size: 13px;
+    }
+
+    .container .content .content-list .list {
+        gap: 10px;
+        padding: 2px;
+    }
+
+    .content .email-adress {
+        margin-top: 5px;
+    }
+
+    .btn-subscribe, 
+    .email-adress input, 
+    .container-subscribed p {
+        font-size: 14px;
+    }
+
+    .content .email-adress span {
+        font-size: 11px;
+        width: 100%;
+    }
+
+    .content .email-adress .invalid-email {
+        margin-left: 160px;
+    }
+
+    .image-desktop {
+        display: none;
+    }
+
+    .container-subscribed {
+        max-width: 300px;
+        padding: 0;
+    }
+
+    .container-subscribed h2 {
+        font-size: 38px;
+    }
+
+    .container-subscribed button {
+        margin-top: 200px;
+    }
+}

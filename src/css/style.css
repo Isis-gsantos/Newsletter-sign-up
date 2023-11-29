@@ -1,0 +1,132 @@
+body {
+    background-color: hsl(235, 18%, 26%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container .content{
+    max-width: 405px;
+    margin: 25px 0;
+    margin-right: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content h1 {
+    font-size: 50px;
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container .content p {
+    margin-bottom: 20px;
+}
+
+.container .content .content-list .list {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+
+.content .email-adress {
+    margin-top: 10px;
+}
+
+.content .email-adress span {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.content .email-adress input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.container .image {
+    max-width: 350px;
+}
+
+.container .image .image-desktop {
+    width: 100%;
+    height: 100%;
+}
+
+.image-mobile {
+    display: none;
+}
+
+.btn-subscribe {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-subscribe:hover {
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0 10px 30px rgba(221, 72, 20, 0.3);
+}
+
+/* SUBSCRIBED */
+.container-subscribed {
+    display: none;
+    max-width: 350px;
+    padding: 20px 30px;
+}
+
+.container-subscribed img {
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+.container-subscribed h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+
+.container-subscribed p {
+    max-width: 280px;
+    margin-bottom: 10px;
+}
+
+.container-subscribed p strong {
+    font-weight: 700;
+}
+
+/* .container-subscribed button {
+    box-shadow: 0 10px 30px rgba(221, 72, 20, 0.3);
+} */
+
+/* invalid EMAIL ADRESS */
+.invalid-email {
+    color: hsl(4, 100%, 67%);
+    margin-left: 235px;
+    margin-top: -15px;
+    display: none;
+}

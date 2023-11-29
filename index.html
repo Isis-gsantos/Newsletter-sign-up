@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Sign-Up</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <main class="container">
+        <section class="content" id="content">
+            <!-- <div class="image-mobile"></div> -->
+
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+            <nav>
+                <ul class="content-list">
+                    <li class="list">
+                        <img src="./src/images/icon-list.svg" alt="icon list">
+                        Product discovery ans building what matters
+                    </li>
+
+                    <li class="list">
+                        <img src="./src/images/icon-list.svg" alt="icon list">
+                        Measuring to ensure updates are sucess
+                    </li>
+
+                    <li class="list">
+                        <img src="./src/images/icon-list.svg" alt="icon list">
+                        And much more!
+                    </li>
+                </ul>
+            </nav>
+            <br>
+            <div class="email-adress">
+                <span class="email-adress-span">Email address</span>
+
+                <span class="invalid-email" id="invalid-email">Valid email required</span>
+
+                <input type="email" id="email" placeholder="email@company.com" required>
+
+                <button onclick="subscribe()" class="btn-subscribe">
+                    Subscribe to monthly newsletter
+                </button>
+            </div>
+
+        </section>
+
+        <section class="container-subscribed" id="sucess-message">
+            <img src="./src/images/icon-list.svg" alt="icon list">
+            <br>
+            <h2>Thanks for subscribing!</h1>
+            <br>
+            <p>
+                A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. Please open it and click
+                the button inside to confirm your subscription.
+            </p>
+            <br>
+            <button class="btn-subscribe">
+                Dismiss message
+            </button>
+        </section>
+
+
+        <picture class="image" id="image">
+            <img class="image-desktop" src="./src/images/illustration-sign-up-desktop.svg" alt="Ilustration">
+            
+            <img src="./src/images/illustration-sign-up-mobile.svg" alt="Mobile image" class="image-mobile">
+        </picture>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
