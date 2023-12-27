@@ -119,10 +119,6 @@ body {
     font-weight: 700;
 }
 
-/* .container-subscribed button {
-    box-shadow: 0 10px 30px rgba(221, 72, 20, 0.3);
-} */
-
 /* invalid EMAIL ADRESS */
 .invalid-email {
     color: hsl(4, 100%, 67%);
